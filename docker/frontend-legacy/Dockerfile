@@ -15,7 +15,7 @@ COPY legacy ./
 
 RUN ./gradlew build
 
-FROM openjdk:11.0.13-jre-slim-bullseye
+FROM openjdk:11.0.15-jre-slim-bullseye
 
 RUN mkdir dir -p /risingwave_fe/conf /risingwave_fe/lib
 
